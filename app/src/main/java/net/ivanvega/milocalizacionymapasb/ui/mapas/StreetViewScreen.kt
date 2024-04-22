@@ -12,7 +12,7 @@ import com.google.android.gms.maps.model.LatLng
 
 
 @Composable
-fun StreetView() {
+fun StreetViewScreen() {
     val context = LocalContext.current
     val svpView = remember {
         StreetViewPanoramaView(context, StreetViewPanoramaOptions()

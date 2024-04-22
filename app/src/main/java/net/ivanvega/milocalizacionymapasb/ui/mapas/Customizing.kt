@@ -7,7 +7,6 @@ import androidx.compose.ui.graphics.Color
 import com.google.maps.android.compose.MarkerInfoWindow
 import com.google.maps.android.compose.MarkerInfoWindowContent
 
-
 @Composable
 fun Customizing(){
     MarkerInfoWindowContent(
@@ -25,4 +24,5 @@ fun Customizing(){
             Text(marker.snippet ?: "Default Marker Snippet", color = Color.Red)
         }
     }
+
 }

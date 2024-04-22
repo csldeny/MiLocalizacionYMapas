@@ -14,11 +14,13 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.platform.location.locationupdates.LocationUpdatesScreen
 import com.example.platform.location.permission.LocationPermissionScreen
 import net.ivanvega.milocalizacionymapasb.ui.location.CurrentLocationScreen
+import net.ivanvega.milocalizacionymapasb.ui.mapas.Contrilling
 import net.ivanvega.milocalizacionymapasb.ui.mapas.Customizing
 import net.ivanvega.milocalizacionymapasb.ui.mapas.Mapa
 import net.ivanvega.milocalizacionymapasb.ui.mapas.MiPrimerMapa
 import net.ivanvega.milocalizacionymapasb.ui.mapas.RecomposingElements
-import net.ivanvega.milocalizacionymapasb.ui.mapas.StreetView
+import net.ivanvega.milocalizacionymapasb.ui.mapas.StreetViewScreen
+import net.ivanvega.milocalizacionymapasb.ui.mapas.StreetViewScreen
 import net.ivanvega.milocalizacionymapasb.ui.theme.MiLocalizacionYMapasBTheme
 
 class MainActivity : ComponentActivity() {
@@ -38,8 +40,9 @@ class MainActivity : ComponentActivity() {
                         MiPrimerMapa()
                         //Mapa()
                         //RecomposingElements()
-                        Customizing()
-                        //RecomposingElements()
+                        //Customizing()
+                        //StreetViewScreen()
+                        Contrilling()
                     }
                 }
             }
