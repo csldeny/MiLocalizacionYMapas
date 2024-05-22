@@ -19,6 +19,7 @@ import net.ivanvega.milocalizacionymapasb.ui.mapas.Customizing
 import net.ivanvega.milocalizacionymapasb.ui.mapas.Mapa
 import net.ivanvega.milocalizacionymapasb.ui.mapas.MiPrimerMapa
 import net.ivanvega.milocalizacionymapasb.ui.mapas.RecomposingElements
+import net.ivanvega.milocalizacionymapasb.ui.mapas.ReturnHome
 import net.ivanvega.milocalizacionymapasb.ui.mapas.StreetViewScreen
 import net.ivanvega.milocalizacionymapasb.ui.mapas.StreetViewScreen
 import net.ivanvega.milocalizacionymapasb.ui.theme.MiLocalizacionYMapasBTheme
@@ -42,7 +43,8 @@ class MainActivity : ComponentActivity() {
                         //RecomposingElements()
                         //Customizing()
                         //StreetViewScreen()
-                        Contrilling()
+                        //Contrilling()
+                        ReturnHome()
                     }
                 }
             }
